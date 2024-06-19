@@ -11,6 +11,6 @@ def write_to_file_and_display(video_urls, file_name='youtube_video_links.txt'):
             file.write(url + '\n')  
  
 # Replace with your playlist URL 
-playlist_url = 'https://youtube.com/playlist?list=PLXFZ2a8hMet5BWWDqIHAQP2hCnEN09j24&si=xIM8stOcksFiSxsV' 
+playlist_url = ' ENTER YOUR PLAYLIST url HERE! ' 
 video_urls = get_video_links_from_playlist(playlist_url) 
 write_to_file_and_display(video_urls)  
